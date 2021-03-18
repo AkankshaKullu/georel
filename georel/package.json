@@ -13,8 +13,7 @@
     "@sap/cloud-sdk-vdm-business-partner-service": "^1.8.1",
     "@sap/xb-msg-amqp-v100": "latest",
     "@sap/xsenv": "latest",
-    "express": "^4.17.1",
-    "sqlite3": "^4.0.9"
+    "express": "^4.17.1"
   },
   "scripts": {
     "start": "cds run",
@@ -34,5 +33,8 @@
         "kind": "enterprise-messaging"
       }
     }
+  },
+  "devDependencies": {
+    "sqlite3": "^4.2.0"
   }
 }
